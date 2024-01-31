@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
 
-void reverse(int arr[], int n) {
+void reverse(int arr[], int n) {\
 
+    // rep. first eleent of the array.
     int start = 0;
+    // reresens the last element of the array
     int end = n-1;
 
     while(start<=end) {
@@ -14,7 +16,7 @@ void reverse(int arr[], int n) {
 }
 
 void printArray(int arr[], int n) {
-    
+    // Function to print the array
     for(int i=0; i<n; i++) {
         cout << arr[i] << " ";
     }
